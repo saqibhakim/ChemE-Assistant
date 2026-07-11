@@ -1,0 +1,50 @@
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Python virtual environment
+# =========================
+venv/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Uploaded documents
+# =========================
+uploads/
+
+# =========================
+# Local FAISS database
+# =========================
+vectorstore/db_faiss/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+
+# =========================
+# Temporary / experimental files
+# =========================
+Manual memory.py
+chatPromptTemplate.py
+promptTemplate.py
+
+# Wheel files
+*.whl
