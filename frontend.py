@@ -5,6 +5,7 @@ from main import get_retriever, llm, template
 from Ingest import ingest_doc
 import re
 
+
 def sanitize_math_delimiters(text: str) -> str:
     """
     Force-converts broken open-source math brackets into 
